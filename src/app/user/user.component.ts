@@ -14,5 +14,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  navigateToUserDetails(): void{
 
+  }
 }
