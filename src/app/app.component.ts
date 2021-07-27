@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {UserService} from "./services/user.service";
+
 
 @Component({
   selector: 'app-root',
@@ -10,8 +10,8 @@ export class AppComponent {
   title = 'Ang';
 
 
-  constructor(private userService: UserService) {
-    this.userService.getUsers()
+  constructor() {
+
   }
 }
 
