@@ -8,6 +8,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {routes} from "./routes/basic.routers";
 import { UserComponent } from './user/user.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
+import {PostComponent} from "./post/post.component";
 
 
 
@@ -17,7 +18,8 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     UsersComponent,
     PostsComponent,
     UserComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
