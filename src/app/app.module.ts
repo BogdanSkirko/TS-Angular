@@ -10,6 +10,7 @@ import {PostsComponent} from './components/posts/posts.component';
 
 import { UserComponent } from './components/user/user.component';
 import {routes} from "./routes/routes";
+import { UsersPostsComponent } from './components/users-posts/users-posts.component';
 
 
 
@@ -20,6 +21,7 @@ import {routes} from "./routes/routes";
     PostComponent,
     PostsComponent,
     UserComponent,
+    UsersPostsComponent,
 
   ],
   imports: [

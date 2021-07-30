@@ -23,7 +23,7 @@ export interface IUser {
   username: string;
   email: string;
   addres: Iaddress;
-  geo: Igeo;
+  geo:  Igeo;
   phone: string;
   website: string;
   company:  Icompany
