@@ -1,0 +1,7 @@
+.mainbutton {
+  background: #384040;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: solid ;
+}

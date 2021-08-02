@@ -8,14 +8,21 @@ import { UsersComponent } from './components/users/users.component';
 import {HttpClientModule} from "@angular/common/http";
 import { UserComponent } from './components/user/user.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
-
+import { PostsComponent } from './components/posts/posts.component';
+import { PostComponent } from './components/post/post.component';
+import { PostsDetailsComponent } from './components/posts-details/posts-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
     UserComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    PostsComponent,
+    PostComponent,
+    PostsDetailsComponent,
+
+
 
   ],
   imports: [

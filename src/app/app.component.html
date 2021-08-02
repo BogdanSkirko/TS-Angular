@@ -1,3 +1,16 @@
-Hi to All. This is my first project from Angular
-<router-outlet> </router-outlet>
+<div class="mainbutton">
+  <button (click)="getAllUsers()">Users</button>
+  <button (click)="getAllPosts()">Posts</button>
+</div>
+<ul>
+  <li *ngFor="let user of users">
+    <app-user [user]="user"></app-user>
+  </li>
 
+</ul>
+
+<ul>
+  <li *ngFor="let post of posts">
+    <app-post [post]="post"></app-post>
+  </li>
+</ul>
