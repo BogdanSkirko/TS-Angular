@@ -3,6 +3,12 @@
   <button (click)="getAllPosts()">posts</button>
 </div>
 
-<app-user *ngFor="let user of users" [user]="user"></app-user>
-<app-post *ngFor="let post of posts" [post]="post"></app-post>
-<router-outlet></router-outlet>
+<div class="routerOutlet" >
+  <div>
+    <app-user *ngFor="let user of users" [user]="user"></app-user>
+    <app-post *ngFor="let post of posts" [post]="post"></app-post>
+  </div>
+  <div class="Details">
+    <router-outlet class="routerOutlet"></router-outlet>
+  </div>
+</div>

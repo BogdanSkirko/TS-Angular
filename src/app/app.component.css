@@ -7,3 +7,12 @@
   align-items: flex-start;
   padding: 10px;
 }
+.routerOutlet {
+  display: flex;
+  justify-content: flex-start;
+}
+.Details {
+  width: 300px ;
+  display: flex;
+  justify-content: flex-end;
+}

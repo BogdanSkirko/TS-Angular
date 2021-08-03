@@ -19,7 +19,6 @@ export class AppComponent {
   getAllUsers() {
     this.userService.getUsers().subscribe(value => {
       this.users = value
-      console.log(value)
     })
   }
 

@@ -13,4 +13,7 @@ export class PostsService {
   getPosts(): Observable<IPosts[]> {
     return this.httpClient.get<IPosts[]>('https://jsonplaceholder.typicode.com/posts')
   }
+  getAllPosts(id:number): Observable<IPosts> {
+    return this.httpClient.get<IPosts>('https://jsonplaceholder.typicode.com/posts/' + id)
+  }
 }
