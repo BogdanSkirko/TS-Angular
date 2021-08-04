@@ -1,0 +1,15 @@
+<div class="divUsersDetail">
+
+
+  <div>{{user?.id + ')'}}
+    {{user?.name}}
+    {{user?.email}}
+    <button (click)="getUserDetails()">UserDetails</button>
+  </div>
+
+  <div class="divOutlet">
+    <router-outlet></router-outlet>
+  </div>
+
+
+</div>

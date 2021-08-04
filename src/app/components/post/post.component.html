@@ -1,0 +1,11 @@
+<div class="divPostsDetail">
+  <div>
+    {{post?.id + ')'}}
+    {{post?.userId}}
+    {{post?.title}}
+  <button (click)="getPostDetails()">PostsDetails</button>
+ </div>
+  <div class="divOutletPost">
+    <router-outlet></router-outlet>
+  </div>
+</div>

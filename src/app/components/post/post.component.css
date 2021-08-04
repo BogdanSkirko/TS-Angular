@@ -1,0 +1,8 @@
+.divPostsDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.divOutletPost {
+  width: 300px;
+
+}

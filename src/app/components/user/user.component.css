@@ -1,0 +1,10 @@
+.divUsersDetail {
+  display: flex;
+  justify-content: space-between;
+}
+.divOutlet {
+  display: flex;
+  align-items: center;
+
+
+}
