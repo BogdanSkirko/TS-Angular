@@ -3,5 +3,5 @@
   display: flex;
   justify-content: space-around;
   border: solid 3px;
-
+  padding: 20px;
 }

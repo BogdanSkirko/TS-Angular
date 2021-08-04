@@ -21,4 +21,7 @@ private _url = 'https://jsonplaceholder.typicode.com/'
   getUsersById(id:number): Observable<IUser> {
   return this.httpClient.get<IUser>(this._url + '/' + id)
   }
+  getPostsById(id:number): Observable<IPosts> {
+  return this.httpClient.get<IPosts>(this._url +'/' + id)
+  }
 }
