@@ -1,0 +1,7 @@
+.Button {
+  background: #72b4fa;
+  display: flex;
+  justify-content: space-around;
+  border: solid 3px;
+
+}

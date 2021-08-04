@@ -7,12 +7,18 @@ import {UserDetailsComponent} from "../components/user-details/user-details.comp
 export let routes = [
   {
     path: 'users',
-    component: UsersComponent
+    component: UsersComponent,
+    children: [
+      {
+        path: ':id',
+        component: UserDetailsComponent
+      }
+    ]
   },
-  {
-    path: 'users/:id',
-    component: UserDetailsComponent
-  },
+  // {
+  //   path: 'users/:id',
+  //   component: UserDetailsComponent
+  // },
   {
     path: 'posts',
     component: PostsComponent
